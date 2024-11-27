@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-photo/hourglass-wooden-table_666746-26294.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 80px;
+    color: white;
+}
+
+.start,
+.stop,
+.reset {
+    height: 50px;
+    width: 80px;
+    margin-left: 17px;
+    cursor: pointer;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(120, 118, 116);
+    color: white;
+    padding: 30px;
+}
